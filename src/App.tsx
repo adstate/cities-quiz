@@ -7,6 +7,9 @@ import Map from './components/Map/Map';
 import Footer from './components/Footer/Footer';
 import {useDispatch} from "react-redux";
 
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 function App() {
   const dispatch = useDispatch();
 

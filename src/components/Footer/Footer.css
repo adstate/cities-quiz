@@ -3,3 +3,13 @@
     justify-content: flex-end;
     padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 3px 5px;
+    }
+
+    .footer > button {
+        width: 100%;
+    }
+}

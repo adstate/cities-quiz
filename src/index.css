@@ -33,3 +33,10 @@ body {
 .button_active:disabled {
   border-color: rgba(40, 44, 52, 0.55);
 }
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 6px 24px;
+    font-size: 16px;
+  }
+}

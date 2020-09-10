@@ -10,8 +10,6 @@ const Header: React.FC<any> = ({}) => {
     const currentDistance = useSelector((state: RootState) => state.currentDistance);
     const gameStarted = useSelector((state: RootState) => state.gameStarted);
 
-    console.log('gameStarted', gameStarted);
-
     if (gameStarted) {
         return (
             <div className="header">
@@ -19,7 +17,7 @@ const Header: React.FC<any> = ({}) => {
                 <div className="button">{citiesPlaced} cities placed</div>
                 { currentCity && score > 0 && Number(currentDistance) === 0 && <div className="current-place">Select the location of {currentCity.capitalCity}</div> }
                 { currentCity && Number(currentDistance) > 0 && <div className="current-place">Distance between point and {currentCity.capitalCity} is {currentDistance} km</div> }
-                { score === 0 && <div className="current-place"> Game ended. You lost all kilometers. You can start again.</div> }
+                { score === 0 && <div className="current-place">You lost all kilometers. You can start again.</div> }
             </div>
         )
     }
