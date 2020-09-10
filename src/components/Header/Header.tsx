@@ -16,8 +16,7 @@ const Header: React.FC<any> = ({}) => {
                 <div className="button">{score} kilometers left</div>
                 <div className="button">{citiesPlaced} cities placed</div>
                 { currentCity && score > 0 && Number(currentDistance) === 0 && <div className="current-place">Select the location of {currentCity.capitalCity}</div> }
-                { currentCity && Number(currentDistance) > 0 && <div className="current-place">Distance between point and {currentCity.capitalCity} is {currentDistance} km</div> }
-                { score === 0 && <div className="current-place">You lost all kilometers. You can start again.</div> }
+                { currentCity && Number(currentDistance) > 0 && <div className="current-place">Distance {currentDistance} km</div> }
             </div>
         )
     }
@@ -26,7 +25,7 @@ const Header: React.FC<any> = ({}) => {
         <div className="header">
             <div className="button">{score} kilometers left</div>
             <div className="button">{citiesPlaced} cities placed</div>
-            {score === 0 && <div className="current-place"> Game ended. You lost all kilometers. You can start again.</div> }
+            {score === 0 && <div className="current-place">You lost all kilometers</div> }
         </div>
     )
 }

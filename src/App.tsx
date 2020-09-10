@@ -7,8 +7,13 @@ import Map from './components/Map/Map';
 import Footer from './components/Footer/Footer';
 import {useDispatch} from "react-redux";
 
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+const calcViewHeight = () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+calcViewHeight();
+window.onresize = calcViewHeight;
 
 function App() {
   const dispatch = useDispatch();
