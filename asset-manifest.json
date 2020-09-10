@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/cities-quiz/static/css/main.89151f25.chunk.css",
-    "main.js": "/cities-quiz/static/js/main.87f0c64e.chunk.js",
-    "main.js.map": "/cities-quiz/static/js/main.87f0c64e.chunk.js.map",
+    "main.css": "/cities-quiz/static/css/main.312c608f.chunk.css",
+    "main.js": "/cities-quiz/static/js/main.0380bdd2.chunk.js",
+    "main.js.map": "/cities-quiz/static/js/main.0380bdd2.chunk.js.map",
     "runtime-main.js": "/cities-quiz/static/js/runtime-main.1c8dbd9b.js",
     "runtime-main.js.map": "/cities-quiz/static/js/runtime-main.1c8dbd9b.js.map",
     "static/js/2.d57db748.chunk.js": "/cities-quiz/static/js/2.d57db748.chunk.js",
     "static/js/2.d57db748.chunk.js.map": "/cities-quiz/static/js/2.d57db748.chunk.js.map",
     "index.html": "/cities-quiz/index.html",
-    "precache-manifest.f3ed1ee4de6af6d055d9b80b334ee478.js": "/cities-quiz/precache-manifest.f3ed1ee4de6af6d055d9b80b334ee478.js",
+    "precache-manifest.2435d5b44cccce2cc5587808600c7c02.js": "/cities-quiz/precache-manifest.2435d5b44cccce2cc5587808600c7c02.js",
     "service-worker.js": "/cities-quiz/service-worker.js",
-    "static/css/main.89151f25.chunk.css.map": "/cities-quiz/static/css/main.89151f25.chunk.css.map",
+    "static/css/main.312c608f.chunk.css.map": "/cities-quiz/static/css/main.312c608f.chunk.css.map",
     "static/js/2.d57db748.chunk.js.LICENSE.txt": "/cities-quiz/static/js/2.d57db748.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1c8dbd9b.js",
     "static/js/2.d57db748.chunk.js",
-    "static/css/main.89151f25.chunk.css",
-    "static/js/main.87f0c64e.chunk.js"
+    "static/css/main.312c608f.chunk.css",
+    "static/js/main.0380bdd2.chunk.js"
   ]
 }
