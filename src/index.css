@@ -7,7 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  text-align: center;
+  border: 2px solid #282c34;
+  padding: 8px 26px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+.button_active {
+  cursor: pointer;
+}
+
+.button_active:hover, .button_active:active, .button_active:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.button_active:disabled {
+  border-color: rgba(40, 44, 52, 0.55);
 }
