@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cities-quiz/static/css/main.312c608f.chunk.css",
-    "main.js": "/cities-quiz/static/js/main.df764b65.chunk.js",
-    "main.js.map": "/cities-quiz/static/js/main.df764b65.chunk.js.map",
+    "main.js": "/cities-quiz/static/js/main.54f23ca4.chunk.js",
+    "main.js.map": "/cities-quiz/static/js/main.54f23ca4.chunk.js.map",
     "runtime-main.js": "/cities-quiz/static/js/runtime-main.1c8dbd9b.js",
     "runtime-main.js.map": "/cities-quiz/static/js/runtime-main.1c8dbd9b.js.map",
     "static/js/2.d57db748.chunk.js": "/cities-quiz/static/js/2.d57db748.chunk.js",
     "static/js/2.d57db748.chunk.js.map": "/cities-quiz/static/js/2.d57db748.chunk.js.map",
     "index.html": "/cities-quiz/index.html",
-    "precache-manifest.33229efc1f747d56f710a6119b474647.js": "/cities-quiz/precache-manifest.33229efc1f747d56f710a6119b474647.js",
+    "precache-manifest.805f746782686d79a05e6fb7c5d9686c.js": "/cities-quiz/precache-manifest.805f746782686d79a05e6fb7c5d9686c.js",
     "service-worker.js": "/cities-quiz/service-worker.js",
     "static/css/main.312c608f.chunk.css.map": "/cities-quiz/static/css/main.312c608f.chunk.css.map",
     "static/js/2.d57db748.chunk.js.LICENSE.txt": "/cities-quiz/static/js/2.d57db748.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1c8dbd9b.js",
     "static/js/2.d57db748.chunk.js",
     "static/css/main.312c608f.chunk.css",
-    "static/js/main.df764b65.chunk.js"
+    "static/js/main.54f23ca4.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "680f21ccaef46d782d2554f2fc3bc2ca",
+    "revision": "7402bc1be8f9e7905554b55c1cd04a41",
     "url": "/cities-quiz/index.html"
   },
   {
-    "revision": "7b8b1ba6f51afa8c7ca9",
+    "revision": "680e50377e0eb43b0cb9",
     "url": "/cities-quiz/static/css/main.312c608f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cities-quiz/static/js/2.d57db748.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b8b1ba6f51afa8c7ca9",
-    "url": "/cities-quiz/static/js/main.df764b65.chunk.js"
+    "revision": "680e50377e0eb43b0cb9",
+    "url": "/cities-quiz/static/js/main.54f23ca4.chunk.js"
   },
   {
     "revision": "4bcbf0ae21f570054058",
